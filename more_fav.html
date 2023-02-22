@@ -10,8 +10,8 @@
     
     <!-- Google's MDL -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.lime-red.min.css" />
-    <title>My first webpage, with favicons</title>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.amber-orange.min.css" />
+    <title>My second webpage, with favicons</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -25,7 +25,7 @@
       <!-- Web page header -->
       <header class = "mdl-layout__header">
         <div class = "mdl-layout__header-row">
-          <span class = "mdl-layout-title">Favicons</span>
+          <span class = "mdl-layout-title">Places in Canada</span>
         </div>
       </header>
       <br>
@@ -33,15 +33,43 @@
       <!-- Container for web page content -->
       <main class = "mdl-layout__content" style = "padding-left:20px">
         <!-- Get user input -->
-        <div class = "page-content">On the scale, show how much you like the favicon I displayed.</div>
+        <div class = "page-content">On the scale, show how much you like living in Ottawa.</div>
 
         <!-- Default Slider -->
 <input class="mdl-slider mdl-js-slider" type="range"
   min="0" max="100" value="0" tabindex="0">
 
+        <!-- Table -->
+        <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">City</th>
+      <th>Population</th>
+      <th>Area</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Ottawa</td>
+      <td>994,837</td>
+      <td>2,790 km²</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Toronto</td>
+      <td>2.93 million</td>
+      <td>630.2 km²</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Montreal</td>
+      <td>1.78 million</td>
+      <td>431.5 km²</td>
+    </tr>
+  </tbody>
+</table>
+
         <!-- Link to second web page. -->
         <p>
-          Here is the link to my <a href="./more_fav.html">second web page</a>.
+          Here is the link to my <a href="./more_mdl.html">second web page</a>.
         </p>
       </main>
     </div>
